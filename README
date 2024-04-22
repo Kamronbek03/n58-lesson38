@@ -1,0 +1,34 @@
+# JAVASCRIPT 2-dars
+
+    - Data types - ma'lumotlar turlari 2 ga bo'linadi . Bular Primitive (Sodda) va Complex (murakkab) . Lekin ma'lumotlar turlari jami 8 ta.
+        -Primitive
+            -Null
+            -Undefined
+            -Boolean
+            -Number
+            -Bigint
+            -String
+            -Symbol
+        -Complex
+            -object
+
+        -Type operator - typeof istalgan ma'lumotning turini aniqlab beradi . Buning uchun console.log(typeof ***) >>> *** o'rniga bilmoqchi bo'lgan ma'lumotingizni kiritasiz.
+
+        -Arithmetic (mix)
+            -num + str = str , ya'ni number ma'lumot turiga str ma'lumot turini qo'shsangiz str ma'lumot turini qabul qiladi. >>> masalan let a = 5 + "salom"; bunda a ning typeof str ma'lumot turini chiqaradi. Qolgan amallarda masalan >>> num - / * str = num ma'lumot turini ham qabul qiladi.
+            -str(num) / * - str(num) = num . >>> masalan let a = '16' / '8'; bunda a typeof num ,a'lumot turiga qabul qiladi.
+
+        -Unary operator
+            - +x → songa almashtiradi. masalan let a; a = prompt("a="); bundan kiritilgan ma'lumot str deb qabul qilinadi . Agar a = +prompt("a="); deb bersak bunda kiritilgan qiymat num deb qabul qilinadi.
+            - -x → manfiy songa aylantiradi.
+            - ++x → o’zgaruvchini 1 ga oshiradi. // prefix increment
+            - x++ → o’zgaruvchini 1 ga oshiradi. // postfix increment
+            - --x → o’zgaruvchini 1 ga kamaytiradi. // prefix decrement
+            - x-- → o’zgaruvchini 1 ga kamaytiradi. // postfix =decrement
+
+        -Math
+            -Math.abs() - bu modul .
+            -Math.sqrt() - ildiz .
+            -Math.min() , Math.max() - bunda kiritilgan type num bo'lgan ma'lumotlarni minimum qiymati va maximum qiymatini topib beradi.
+            -Math.trunc() - kirilgan sonning faqat butun qismini oladi.
+            -Math.pow(x,y) - bunda x ning y darjasini bildiradi.
